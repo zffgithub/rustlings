@@ -1,6 +1,22 @@
 # VARIABLES
 
 [[exercises]]
+name = "clippy1"
+path = "exercises/clippy/clippy1.rs"
+mode = "compile"
+hint = """
+Hint: The declaration on line 12 is missing a keyword that is needed in Rust
+to create a new variable binding."""
+
+[[exercises]]
+name = "clippy2"
+path = "exercises/clippy/clippy2.rs"
+mode = "compile"
+hint = """
+Hint: The declaration on line 12 is missing a keyword that is needed in Rust
+to create a new variable binding."""
+
+[[exercises]]
 name = "variables1"
 path = "exercises/variables/variables1.rs"
 mode = "compile"
