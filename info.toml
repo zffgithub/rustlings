@@ -1,22 +1,6 @@
 # VARIABLES
 
 [[exercises]]
-name = "clippy1"
-path = "exercises/clippy/clippy1.rs"
-mode = "compile"
-hint = """
-Hint: The declaration on line 12 is missing a keyword that is needed in Rust
-to create a new variable binding."""
-
-[[exercises]]
-name = "clippy2"
-path = "exercises/clippy/clippy2.rs"
-mode = "compile"
-hint = """
-Hint: The declaration on line 12 is missing a keyword that is needed in Rust
-to create a new variable binding."""
-
-[[exercises]]
 name = "variables1"
 path = "exercises/variables/variables1.rs"
 mode = "compile"
@@ -375,7 +359,7 @@ each constant."""
 # COLLECTIONS
 
 [[exercises]]
-name = "collections1"
+name = "vec1"
 path = "exercises/collections/vec1.rs"
 mode = "test"
 hint = """
@@ -389,7 +373,7 @@ of the Rust book to learn more.
 """
 
 [[exercises]]
-name = "collections2"
+name = "vec2"
 path = "exercises/collections/vec2.rs"
 mode = "test"
 hint = """
@@ -399,7 +383,7 @@ Hint 2: Check the suggestion from the compiler error ;)
 """
 
 [[exercises]]
-name = "collections3"
+name = "hashmap1"
 path = "exercises/collections/hashmap1.rs"
 mode = "test"
 hint = """
@@ -410,7 +394,7 @@ Hint 2: Number of fruits should be at least 5. And you have to put
 """
 
 [[exercises]]
-name = "collections4"
+name = "hashmap2"
 path = "exercises/collections/hashmap2.rs"
 mode = "test"
 hint = """
