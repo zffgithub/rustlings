@@ -835,14 +835,14 @@ hint = "No hints this time ;)"
 [[exercises]]
 name = "clippy1"
 path = "exercises/clippy/clippy1.rs"
-mode = "clippy"
+mode = "compile"
 hint = """
 Floating point calculations are usually imprecise, so asking if two values are exactly equal is asking for trouble"""
 
 [[exercises]]
 name = "clippy2"
 path = "exercises/clippy/clippy2.rs"
-mode = "clippy"
+mode = "compile"
 hint = """
 `for` loops over Option values are more clearly expressed as an `if let`"""
 
@@ -859,7 +859,7 @@ Use the `as` operator to cast one of the operands in the last line of the
 [[exercises]]
 name = "from_into"
 path = "exercises/conversions/from_into.rs"
-mode = "test"
+mode = "compile"
 hint = """
 Follow the steps provided right before the `From` implementation"""
 
@@ -874,15 +874,20 @@ You can also use the example at https://doc.rust-lang.org/std/convert/trait.TryF
 [[exercises]]
 name = "as_ref_mut"
 path = "exercises/conversions/as_ref_mut.rs"
-mode = "test"
+mode = "compile"
 hint = """
 Add AsRef<str> as a trait bound to the functions."""
 
 [[exercises]]
 name = "from_str"
 path = "exercises/conversions/from_str.rs"
-mode = "test"
+mode = "compile"
 hint = """
 The implementation of FromStr should return an Ok with a Person object,
 or an Err with a string if the string is not valid.
 This is almost like the `try_from_into` exercise."""
+
+
+
+# https://rust-by-example.budshome.com/error/result.html
+# https://www.twle.cn/c/yufei/rust/rust-basic-string.html
